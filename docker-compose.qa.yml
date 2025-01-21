@@ -1,0 +1,5 @@
+# docker-compose.qa.yml (QA)
+services:
+  app:
+    env_file:
+      - .env.qa
