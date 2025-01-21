@@ -12,3 +12,14 @@ def home():
 
 if __name__ == "__main__":
     uvicorn.run(app,host="0.0.0.0", port=80)
+    
+    
+    
+
+
+
+
+#commands to run in different environments
+#docker compose -f docker-compose.yml -f docker-compose.qa.yml up
+#docker compose -f docker-compose.yml -f docker-compose.dev.yml up
+#docker compose -f docker-compose.yml -f docker-compose.prod.yml up
